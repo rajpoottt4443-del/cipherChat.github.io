@@ -1,0 +1,6 @@
+{
+  "name": "CipherChat",
+  "description": "Private, secure, and genuinely end-to-end encrypted messaging platform with cryptographic safety numbers, forward-secret messaging, and verified user IDs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

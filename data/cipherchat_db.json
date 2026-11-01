@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": "user_admin_001",
+      "unique_id": "CC-9X88-ADM1",
+      "email": "admin@cipherchat.internal",
+      "password_hash": "5e76bc870d9fbd0cdb05b771684f3cc742515c64cfaf53149e106d2edadb585f4d294068121db7f05e5d409b71f122700aef5670be35fe13456b59e0bd62164d",
+      "salt": "cfb99809e27505f3ae848763e1260fe4",
+      "display_name": "CipherChat Security Team",
+      "username": "security_admin",
+      "avatar_url": "",
+      "public_identity_key": "",
+      "public_key_fingerprint": "CC-ADM1-SEC-FINGERPRINT",
+      "is_email_verified": true,
+      "role": "admin",
+      "status": "active",
+      "created_at": "2026-11-01T18:32:17.374Z",
+      "last_active_at": "2026-11-01T18:32:17.375Z",
+      "settings": {
+        "profile_visibility": "everyone",
+        "online_visibility": true,
+        "read_receipts": true,
+        "two_factor_enabled": false
+      }
+    },
+    {
+      "id": "usr_5fe6d9fd-87a2-471c-86eb-55019a471dab",
+      "unique_id": "CC-DT4R-LW4K",
+      "email": "alice_1793557959686@cipher.internal",
+      "password_hash": "1a4fb1133cdd535d5907b27e1244af313f97c245c13518df99cd0a96bd95a8d2a59bb124c53483c07570d2696f7dd378c290b97ef7e5687fabd67fdeb2f8775d",
+      "salt": "bdf1db3aafe8778135316e7f4ac78638",
+      "display_name": "Alice Security",
+      "username": "alice_1793557959686",
+      "avatar_url": "",
+      "public_identity_key": "{\"crv\":\"P-256\",\"kty\":\"EC\",\"x\":\"test-x-1\",\"y\":\"test-y-1\"}",
+      "public_key_fingerprint": "CC-ALIC-E2EE-FP01",
+      "is_email_verified": true,
+      "role": "user",
+      "status": "active",
+      "created_at": "2026-11-01T18:32:39.754Z",
+      "last_active_at": "2026-11-01T18:32:39.754Z",
+      "settings": {
+        "profile_visibility": "everyone",
+        "online_visibility": true,
+        "read_receipts": true,
+        "two_factor_enabled": false
+      }
+    },
+    {
+      "id": "usr_3a0883c8-223a-490b-9887-707bf159cf24",
+      "unique_id": "CC-UA5K-L4AD",
+      "email": "bob_1793557959763@cipher.internal",
+      "password_hash": "c481a8ce0d333939c7d166a3fc35d8225167c2c9863f1aa7d5a4c329bbdbc1d95d96924cb3dcadd9f3fea5958c6eef6e44c5be9bf08710898fe446223f4efc70",
+      "salt": "916d79669b1f9c5653f264673e8487bf",
+      "display_name": "Bob Cryptographer",
+      "username": "bob_1793557959763",
+      "avatar_url": "",
+      "public_identity_key": "{\"crv\":\"P-256\",\"kty\":\"EC\",\"x\":\"test-x-2\",\"y\":\"test-y-2\"}",
+      "public_key_fingerprint": "CC-BOB2-E2EE-FP02",
+      "is_email_verified": false,
+      "email_verify_token": "472545",
+      "role": "user",
+      "status": "active",
+      "created_at": "2026-11-01T18:32:39.823Z",
+      "last_active_at": "2026-11-01T18:32:39.823Z",
+      "settings": {
+        "profile_visibility": "everyone",
+        "online_visibility": true,
+        "read_receipts": true,
+        "two_factor_enabled": false
+      }
+    },
+    {
+      "id": "usr_0f32af98-5512-42dc-bae1-7c2597dc17d3",
+      "unique_id": "CC-YRW3-EH47",
+      "email": "eve_1793557959844@cipher.internal",
+      "password_hash": "f67c9e92f01afe8c5404aa8899828d95e572ac71b65e926821162a6975b2dfde1ab415aeb1fc0f3ec6e4fbcfee6a7be8bfa0983854c649b7d31ee7dd2473db2c",
+      "salt": "a00f356efa2c690fe9c26d57fa29c093",
+      "display_name": "Eve Eavesdropper",
+      "username": "eve_1793557959845",
+      "avatar_url": "",
+      "public_identity_key": "{\"crv\":\"P-256\",\"kty\":\"EC\",\"x\":\"eve-x\",\"y\":\"eve-y\"}",
+      "public_key_fingerprint": "CC-EVE1-E2EE-FP03",
+      "is_email_verified": false,
+      "email_verify_token": "140197",
+      "role": "user",
+      "status": "active",
+      "created_at": "2026-11-01T18:32:39.894Z",
+      "last_active_at": "2026-11-01T18:32:39.894Z",
+      "settings": {
+        "profile_visibility": "everyone",
+        "online_visibility": true,
+        "read_receipts": true,
+        "two_factor_enabled": false
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "58d34de2-f79b-4986-a50c-a40ad7a6b1e3",
+      "user_id": "usr_5fe6d9fd-87a2-471c-86eb-55019a471dab",
+      "contact_user_id": "usr_3a0883c8-223a-490b-9887-707bf159cf24",
+      "status": "accepted",
+      "created_at": "2026-11-01T18:32:39.833Z",
+      "updated_at": "2026-11-01T18:32:39.837Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "31f5972c-7434-428f-89fe-b7ba756d3bff",
+      "user1_id": "usr_3a0883c8-223a-490b-9887-707bf159cf24",
+      "user2_id": "usr_5fe6d9fd-87a2-471c-86eb-55019a471dab",
+      "created_at": "2026-11-01T18:32:39.837Z",
+      "last_message_at": "2026-11-01T18:32:39.841Z",
+      "last_message_preview": "🔒 Encrypted message"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_e5beef12-2401-4f61-b469-cabc0031a9c7",
+      "conversation_id": "31f5972c-7434-428f-89fe-b7ba756d3bff",
+      "sender_id": "usr_5fe6d9fd-87a2-471c-86eb-55019a471dab",
+      "receiver_id": "usr_3a0883c8-223a-490b-9887-707bf159cf24",
+      "encrypted_payload": {
+        "ciphertext": "aW52YXJpYW50LXZlcmlmaWVkLWhpZ2gtZW50cm9weS1jaXBoZXJ0ZXh0",
+        "iv": "12-byte-hex-iv",
+        "ephemeral_pub_key": "{\"crv\":\"P-256\",\"kty\":\"EC\",\"x\":\"ephem-x\",\"y\":\"ephem-y\"}",
+        "recipient_fingerprint": "CC-BOB2-E2EE-FP02",
+        "is_attachment": false
+      },
+      "status": "sent",
+      "created_at": "2026-11-01T18:32:39.841Z"
+    }
+  ],
+  "reports": [],
+  "sessions": [
+    {
+      "id": "36c8181f-6812-489b-ae6b-446588fb57a1",
+      "token": "fd9b171b1bae6495770d29dc7d8fda6ba1812619b60b0997d3876372811f4f60",
+      "user_id": "usr_5fe6d9fd-87a2-471c-86eb-55019a471dab",
+      "device_info": "node",
+      "ip": "127.0.0.1",
+      "created_at": "2026-11-01T18:32:39.755Z",
+      "last_active_at": "2026-11-01T18:32:39.755Z"
+    },
+    {
+      "id": "9fc30f9d-cef1-4eff-8ef0-d852f58c4be1",
+      "token": "743683f49950d067df3039afb3494b1b122ba183c905cd4047c4c6744b30e95b",
+      "user_id": "usr_3a0883c8-223a-490b-9887-707bf159cf24",
+      "device_info": "node",
+      "ip": "127.0.0.1",
+      "created_at": "2026-11-01T18:32:39.824Z",
+      "last_active_at": "2026-11-01T18:32:39.824Z"
+    },
+    {
+      "id": "39566f40-8420-43be-9d0d-e0435e3b27c1",
+      "token": "a05ed4d037869a7ff9c7bbcb9e41e383b8f93b6dce315b890238d907422b476a",
+      "user_id": "usr_0f32af98-5512-42dc-bae1-7c2597dc17d3",
+      "device_info": "node",
+      "ip": "127.0.0.1",
+      "created_at": "2026-11-01T18:32:39.895Z",
+      "last_active_at": "2026-11-01T18:32:39.895Z"
+    }
+  ]
+}
